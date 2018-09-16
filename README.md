@@ -20,7 +20,8 @@ npm install -g typescript
 ``` 
 
 To use this app, you need to create an API key for using youtube API. To do that, access this turorial:
-[Get a key from youtube API] (https://developers.google.com/youtube/v3/getting-started?hl=pt-br)
+
+[Get a key from youtube API](https://developers.google.com/youtube/v3/getting-started?hl=pt-br)
 
 After creating your API Key, you need to add in the index.js file:
 
@@ -64,4 +65,4 @@ npm start
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
