@@ -13,11 +13,6 @@ What things you need to install the software and how to install them
 
 [Node - Click to download](https://nodejs.org/en/)
 
-After downloading Node, download Typescript with npm (node package manager):
-
-```
-npm install -g typescript
-``` 
 
 To use this app, you need to create an API key for using youtube API. To do that, access this turorial:
 
@@ -25,7 +20,7 @@ To use this app, you need to create an API key for using youtube API. To do that
 
 After creating your API Key, you need to add in the index.js file:
 
-``` typescript
+``` javascript
 // Your Youtube API Key goes here
 const YOUTUBE_API_KEY = "";
 
@@ -57,7 +52,6 @@ npm start
 
 * [React](https://reactjs.org/) 
 * [Redux](https://redux.js.org/) 
-* [Typescript](https://www.typescriptlang.org/) 
 
 ## Authors
 
