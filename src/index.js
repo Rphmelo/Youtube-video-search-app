@@ -6,17 +6,16 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 
 // Your Youtube API Key goes here
-const YOUTUBE_API_KEY = "";
+const YOUTUBE_API_KEY = "AIzaSyDIT1NrVC4RTfOOQsNPn9weCiBbFJD0_QU";
 
 class App extends Component {
     constructor(props){
         super(props);
         this.state = { videos: []};
-
-        YTSearch({key: YOUTUBE_API_KEY, term: 'udacity'}, (videos) => {
-            this.setState({videos});
-        });
     }
+    a = YTSearch({key: YOUTUBE_API_KEY, term: 'udacity'}, (videos) => {
+        this.setState({videos});
+    });
     render(){
         return (
             <div>
