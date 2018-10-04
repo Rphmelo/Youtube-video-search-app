@@ -12,10 +12,12 @@ class App extends Component {
     constructor(props){
         super(props);
         this.state = { videos: []};
+        
+        YTSearch({key: YOUTUBE_API_KEY, term: 'reactjs'}, (videos) => {
+            this.setState({videos});
+        });
     }
-    a = YTSearch({key: YOUTUBE_API_KEY, term: 'udacity'}, (videos) => {
-        this.setState({videos});
-    });
+
     render(){
         return (
             <div>
