@@ -7,7 +7,7 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
 // Your Youtube API Key goes here
-const YOUTUBE_API_KEY = "AIzaSyDIT1NrVC4RTfOOQsNPn9weCiBbFJD0_QU";
+const YOUTUBE_API_KEY = "";
 
 class App extends Component {
     constructor(props){
